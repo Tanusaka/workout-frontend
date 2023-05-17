@@ -1,24 +1,83 @@
-# Metronic | Bootstrap HTML, VueJS, React, Angular, Asp.Net Core, Rails, Spring, Blazor, Django, Flask & Laravel Admin Dashboard Theme
+# Metronic - Bootstrap 5 HTML, React, Angular, VueJS & Laravel Admin Dashboard Theme
 
-- Current version includes the HTML version with Demo 1 only and other demos(24 and counting) can be downloaded 
-  online from [Metronic Downloads](https://devs.keenthemes.com/metronic)
+- For a quick start please check [Online documentation page](//preview.keenthemes.com/metronic8/laravel/documentation/getting-started/build)
 
-- For a quick start please check [Online documentation](https://preview.keenthemes.com/html/metronic/docs/)
 
-- For any theme related questions go to our [Support Center](https://devs.keenthemes.com)
+- All demos assets are included in the package. To switch the demo please check [Switch demo documentation](//https://preview.keenthemes.com/metronic8/laravel/documentation/getting-started/multi-demo/build)
 
-- Using Metronic in a new project or for a new client ? Purchase a new license from [Themeforest Marketplace](https://1.envato.market/EA4JP) 
-  or watch [Youtube Video](https://youtu.be/HJ3RNhoI24A) to find out more information about licenses.
 
-- Get Metronic v5, Metronic v6 or Metronic v7 download links by providing your purchase code via [Support Center](https://devs.keenthemes.com)
+- For any theme related questions please contact our [Theme Support](//keenthemes.com/support/)
 
-- amCharts 15% Discount Code For Keenthemes Users
-  You can download and use all amCharts products for free. The only limitation of the free version is that a small link to this web site will be 
-  displayed in the top left corner of your charts. If you would like to use charts without this link, or you appreciate the software and would 
-  like to support its creators, please purchase a commercial license. Keenthemes users can exclusively use "keenthemes" promo 
-  code(without quotes, case insensitive) for 15% DISCOUNT for commercial license of amCharts. For more info please check [amCharts Site](https://www.amcharts.com/)
 
-- Stay tuned for updates via [Twitter](https://twitter.com/keenthemes) and [Instagram](https://instagram.com/keenthemes) and 
-  check our marketplace for more amazing products: [Keenthemes Marketplace](https://keenthemes.com)
+- Using Metronic in a new project or for a new client? Purchase a new license https://1.envato.market/EA4JP or watch https://youtu.be/HJ3RNhoI24A to find out more information about licenses.
+
+
+- Stay tuned for updates via [Twitter](//www.twitter.com/keenthemes) and [Instagram](//www.instagram.com/keenthemes) and 
+  check our marketplace for more amazing products: [Keenthemes Marketplace](//keenthemes.com/)
+
 
 Happy coding with Metronic!
+
+
+
+### Laravel Quick Start
+
+1. Download the latest theme source from the Marketplace.
+
+
+2. Download and install `Node.js` from Nodejs. The suggested version to install is `14.16.x LTS`.
+
+
+3. Start a command prompt window or terminal and change directory to [unpacked path]:
+
+
+4. Install the latest `NPM`:
+   
+        npm install --global npm@latest
+
+
+5. To install `Composer` globally, download the installer from https://getcomposer.org/download/ Verify that Composer in successfully installed, and version of installed Composer will appear:
+   
+        composer --version
+
+
+6. Install `Composer` dependencies.
+   
+        composer install
+
+
+7. Install `NPM` dependencies.
+   
+        npm install
+
+
+8. The below command will compile all the assets(sass, js, media) to public folder:
+   
+        npm run dev
+
+
+9. Copy `.env.example` file and create duplicate. Use `cp` command for Linux or Max user.
+
+        cp .env.example .env
+
+    If you are using `Windows`, use `copy` instead of `cp`.
+   
+        copy .env.example .env
+   
+
+10. Create a table in MySQL database and fill the database details `DB_DATABASE` in `.env` file.
+
+
+12. The below command will create tables into database using Laravel migration and seeder.
+
+        php artisan migrate:fresh --seed
+
+
+13. Generate your application encryption key:
+
+        php artisan key:generate
+
+
+14. Start the localhost server:
+    
+        php artisan serve
