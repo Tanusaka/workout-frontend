@@ -11,18 +11,7 @@
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
 			<!--begin::Menu-->
-			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
-				<!--begin::Svg Icon | path: icons/duotune/general/gen023.svg-->
-				<span class="svg-icon svg-icon-1">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="4" fill="currentColor" />
-						<rect x="11" y="11" width="2.6" height="2.6" rx="1.3" fill="currentColor" />
-						<rect x="15" y="11" width="2.6" height="2.6" rx="1.3" fill="currentColor" />
-						<rect x="7" y="11" width="2.6" height="2.6" rx="1.3" fill="currentColor" />
-					</svg>
-				</span>
-				<!--end::Svg Icon-->
-			</button>
+			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! getIcon('dots-square', 'fs-1') !!}</button>
 			@include('partials/menus/_menu-2')
 			<!--end::Menu-->
 		</div>

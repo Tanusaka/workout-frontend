@@ -21,9 +21,9 @@
 		<!--end::Input-->
 		<!--begin::Card logos-->
 		<div class="position-absolute translate-middle-y top-50 end-0 me-5">
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/card-logos/visa.svg') }}" alt="" class="h-25px" />
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/card-logos/mastercard.svg') }}" alt="" class="h-25px" />
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/card-logos/american-express.svg') }}" alt="" class="h-25px" />
+			<img src="assets/media/svg/card-logos/visa.svg" alt="" class="h-25px" />
+			<img src="assets/media/svg/card-logos/mastercard.svg" alt="" class="h-25px" />
+			<img src="assets/media/svg/card-logos/american-express.svg" alt="" class="h-25px" />
 		</div>
 		<!--end::Card logos-->
 	</div>
@@ -85,7 +85,7 @@
 		<!--begin::Label-->
 		<label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
 			<span class="required">CVV</span>
-			@include('partials/general/_form-tooltip-hint')
+			<span class="ms-1" data-bs-toggle="tooltip" title="Enter a card CVV code"></span>
 		</label>
 		<!--end::Label-->
 		<!--begin::Input wrapper-->
@@ -94,7 +94,7 @@
 			<input type="text" class="form-control form-control-solid" minlength="3" maxlength="4" placeholder="CVV" name="card_cvv" />
 			<!--end::Input-->
 			<!--begin::CVV icon-->
-			<div class="position-absolute translate-middle-y top-50 end-0 me-3">{!! theme()->getIcon('credit-cart', 'fs-2hx') !!}</div>
+			<div class="position-absolute translate-middle-y top-50 end-0 me-3">{!! getIcon('credit-cart', 'fs-2hx') !!}</div>
 			<!--end::CVV icon-->
 		</div>
 		<!--end::Input wrapper-->
@@ -117,4 +117,4 @@
 	</label>
 	<!--end::Switch-->
 </div>
-<!--end::Input group-->
+<!--end::Input group-->

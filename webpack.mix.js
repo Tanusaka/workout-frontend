@@ -24,6 +24,8 @@ const args = getParameters();
 // get selected demo
 let demo = getDemos()[0];
 
+const dir = 'resources/_keenthemes/src';
+
 mix.options({
     cssNano: {
         discardComments: false,
@@ -31,10 +33,10 @@ mix.options({
 });
 
 // Remove existing generated assets from public folder
-del.sync(['public/css/*', 'public/js/*', 'public/media/*', 'public/plugins/*',]);
+del.sync(['public/assets/*',]);
 
 // Build 3rd party plugins css/js
-mix.sass(`resources/assets/core/plugins/plugins.scss`, `public/${demo}/plugins/global/plugins.bundle.css`).then(() => {
+mix.sass('resources/mix/plugins.scss', `public/assets/plugins/global/plugins.bundle.css`).then(() => {
     // remove unused preprocessed fonts folder
     rimraf(path.resolve('public/fonts'), () => {
     });
@@ -43,68 +45,40 @@ mix.sass(`resources/assets/core/plugins/plugins.scss`, `public/${demo}/plugins/g
 }).sourceMaps(!mix.inProduction())
     // .setResourceRoot('./')
     .options({processCssUrls: false})
-    .scripts(require('./resources/assets/core/plugins/plugins.js'), `public/${demo}/plugins/global/plugins.bundle.js`);
+    .scripts(require('./resources/mix/plugins.js'), `public/assets/plugins/global/plugins.bundle.js`);
 
-// Build extended plugin styles
-mix.sass(`resources/assets/${demo}/sass/plugins.scss`, `public/${demo}/plugins/global/plugins-custom.bundle.css`);
-
-// Build Metronic css/js
-mix.sass(`resources/assets/${demo}/sass/style.scss`, `public/${demo}/css/style.bundle.css`, {sassOptions: {includePaths: ['node_modules']}})
+// Build theme css/js
+mix.sass(`${dir}/sass/style.scss`, `public/assets/css/style.bundle.css`, {sassOptions: {includePaths: ['node_modules']}})
     // .options({processCssUrls: false})
-    .scripts(require(`./resources/assets/${demo}/js/scripts.js`), `public/${demo}/js/scripts.bundle.js`);
-
+    .scripts(require(`./resources/mix/scripts.js`), `public/assets/js/scripts.bundle.js`);
 
 // Build custom 3rd party plugins
-(glob.sync(`resources/assets/core/plugins/custom/**/*.js`) || []).forEach(file => {
-    mix.js(file, `public/${demo}/${file.replace(`resources/assets/core/`, '').replace('.js', '.bundle.js')}`);
+(glob.sync(`resources/mix/vendors/**/*.js`) || []).forEach(file => {
+    mix.scripts(require('./' + file), `public/assets/${file.replace('resources/mix/vendors/', 'plugins/custom/')}`);
 });
-(glob.sync(`resources/assets/core/plugins/custom/**/*.scss`) || []).forEach(file => {
-    mix.sass(file, `public/${demo}/${file.replace(`resources/assets/core/`, '').replace('.scss', '.bundle.css')}`);
-});
-
-// Build Metronic css pages (single page use)
-(glob.sync(`resources/assets/${demo}/sass/pages/**/!(_)*.scss`) || []).forEach(file => {
-    file = file.replace(/[\\\/]+/g, '/');
-    mix.sass(file, file.replace(`resources/assets/${demo}/sass`, `public/${demo}/css`).replace(/\.scss$/, '.css'));
+(glob.sync(`resources/mix/vendors/**/*.scss`) || []).forEach(file => {
+    mix.sass(file, `public/assets/${file.replace('resources/mix/vendors/', 'plugins/custom/').replace('scss', 'css')}`);
 });
 
-var extendedFiles = [];
-// Extend custom js files for laravel
-(glob.sync('resources/assets/extended/js/**/*.js') || []).forEach(file => {
-    var output = `public/${demo}/${file.replace('resources/assets/extended/', '')}`;
+// JS pages (single page use)
+(glob.sync(`${dir}/js/custom/**/*.js`) || []).forEach(file => {
+    var output = `public/assets/${file.replace(`${dir}/`, '')}`;
     mix.scripts(file, output);
-    extendedFiles.push(output);
+});
+// Override custom JS files
+(glob.sync(`resources/mix/custom/**/*.js`) || []).forEach(file => {
+    var output = `public/assets/${file.replace(`resources/mix`, 'js')}`;
+    mix.scripts(file, output);
 });
 
-// Metronic js pages (single page use)
-(glob.sync('resources/assets/core/js/custom/**/*.js') || []).forEach(file => {
-    var output = `public/${demo}/${file.replace('resources/assets/core/', '')}`;
-    if (extendedFiles.indexOf(output) === -1) {
-        mix.js(file, output);
-    }
-});
-(glob.sync(`resources/assets/${demo}/js/custom/**/*.js`) || []).forEach(file => {
-    var output = `public/${demo}/${file.replace(`resources/assets/${demo}/`, '')}`;
-    if (extendedFiles.indexOf(output) === -1) {
-        mix.js(file, output);
-    }
-});
-
-// Metronic media
-mix.copyDirectory('resources/assets/core/media', `public/${demo}/media`);
-mix.copyDirectory(`resources/assets/${demo}/media`, `public/${demo}/media`);
-
-// Metronic theme
-(glob.sync(`resources/assets/${demo}/sass/themes/**/!(_)*.scss`) || []).forEach(file => {
-    file = file.replace(/[\\\/]+/g, '/');
-    mix.sass(file, file.replace(`resources/assets/${demo}/sass`, `public/${demo}/css`).replace(/\.scss$/, '.css'));
-});
+// Build media
+mix.copyDirectory(`${dir}/media`, `public/assets/media`);
 
 let plugins = [
     new ReplaceInFileWebpackPlugin([
         {
             // rewrite font paths
-            dir: path.resolve(`public/${demo}/plugins/global`),
+            dir: path.resolve(`public/assets/plugins/global`),
             test: /\.css$/,
             rules: [
                 {
@@ -129,7 +103,7 @@ let plugins = [
                 },
                 {
                     // keenicons
-                    search: /url\(.*?((keenicons)-.*?\..*?)'?\)/g,
+                    search: /url\(.*?((keenicons-.*?)\..*?)'?\)/g,
                     replace: 'url(./fonts/$2/$1)',
                 },
             ],
@@ -154,26 +128,19 @@ mix.webpackConfig({
 });
 
 // Webpack.mix does not copy fonts, manually copy
-(glob.sync(`resources/assets/core/plugins/**/*.+(woff|woff2|eot|ttf|svg)`) || []).forEach(file => {
-    var folder = file.match(/resources\/.*?\/core\/plugins\/(.*?)\/.*?/)[1];
-    mix.copy(file, `public/${demo}/plugins/global/fonts/${folder}/${path.basename(file)}`);
+(glob.sync(`${dir}/plugins/**/*.+(woff|woff2|eot|ttf|svg)`) || []).forEach(file => {
+    mix.copy(file, `public/assets/plugins/global/fonts/${path.parse(file).name}/${path.basename(file)}`);
 });
 (glob.sync('node_modules/+(@fortawesome|socicon|line-awesome|bootstrap-icons)/**/*.+(woff|woff2|eot|ttf)') || []).forEach(file => {
     var folder = file.match(/node_modules\/(.*?)\//)[1];
-    mix.copy(file, `public/${demo}/plugins/global/fonts/${folder}/${path.basename(file)}`);
+    mix.copy(file, `public/assets/plugins/global/fonts/${folder}/${path.basename(file)}`);
 });
 (glob.sync('node_modules/jstree/dist/themes/default/*.+(png|gif)') || []).forEach(file => {
-    mix.copy(file, `public/${demo}/plugins/custom/jstree/${path.basename(file)}`);
+    mix.copy(file, `public/assets/plugins/custom/jstree/${path.basename(file)}`);
 });
 
-// Raw plugins
-(glob.sync(`resources/assets/core/plugins/custom/**/*.js.json`) || []).forEach(file => {
-    let filePaths = JSON.parse(fs.readFileSync(file, 'utf-8'));
-    const fileName = path.basename(file).replace('.js.json', '');
-    mix.scripts(filePaths, `public/${demo}/plugins/custom/${fileName}/${fileName}.bundle.js`);
-});
-
-mix.scripts((glob.sync(`resources/assets/core/js/widgets/**/*.js`) || []), `public/${demo}/js/widgets.bundle.js`);
+// Widgets
+mix.scripts((glob.sync(`${dir}/js/widgets/**/*.js`) || []), `public/assets/js/widgets.bundle.js`);
 
 function getDemos() {
     // get possible demo from parameter command

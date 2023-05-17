@@ -20,7 +20,7 @@
 				<!--begin::Message-->
 				<div class="dz-message needsclick">
 				<!--begin::Icon-->
-				{!! theme()->getSvgIcon('duotune/files/fil010.svg', 'svg-icon svg-icon-3hx svg-icon-primary') !!}
+				{!! getSvgIcon('duotune/files/fil010.svg', 'svg-icon svg-icon-3hx svg-icon-primary') !!}
 				<!--end::Icon-->
 				<!--begin::Info-->
 				<div class="ms-4">
@@ -44,7 +44,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Avatar-->
 						<div class="symbol symbol-35px">
-							<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/files/pdf.svg') }}" alt="icon" />
+							<img src="{{ image('svg/files/pdf.svg') }}" alt="icon" />
 						</div>
 						<!--end::Avatar-->
 						<!--begin::Details-->
@@ -71,7 +71,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Avatar-->
 						<div class="symbol symbol-35px">
-							<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/files/doc.svg') }}" alt="icon" />
+							<img src="{{ image('svg/files/doc.svg') }}" alt="icon" />
 						</div>
 						<!--end::Avatar-->
 						<!--begin::Details-->
@@ -98,7 +98,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Avatar-->
 						<div class="symbol symbol-35px">
-							<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/files/css.svg') }}" alt="icon" />
+							<img src="{{ image('svg/files/css.svg') }}" alt="icon" />
 						</div>
 						<!--end::Avatar-->
 						<!--begin::Details-->
@@ -125,7 +125,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Avatar-->
 						<div class="symbol symbol-35px">
-							<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/files/ai.svg') }}" alt="icon" />
+							<img src="{{ image('svg/files/ai.svg') }}" alt="icon" />
 						</div>
 						<!--end::Avatar-->
 						<!--begin::Details-->
@@ -152,7 +152,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Avatar-->
 						<div class="symbol symbol-35px">
-							<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/files/tif.svg') }}" alt="icon" />
+							<img src="{{ image('svg/files/tif.svg') }}" alt="icon" />
 						</div>
 						<!--end::Avatar-->
 						<!--begin::Details-->

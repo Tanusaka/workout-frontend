@@ -13,7 +13,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-6.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -85,7 +85,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-1.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -121,7 +121,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-5.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -157,7 +157,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-25.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -229,7 +229,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-9.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -337,7 +337,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-23.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-23.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -409,7 +409,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-12.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-12.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -481,7 +481,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-13.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-13.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -553,7 +553,7 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-21.jpg') }}" />
+					<img alt="Pic" src="assets/media/avatars/300-21.jpg" />
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
@@ -589,13 +589,13 @@
 				<!--end::Checkbox-->
 				<!--begin::Avatar-->
 				<div class="symbol symbol-35px symbol-circle">
-					<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-6.jpg') }}" />
+					<span class="symbol-label bg-light-info text-info fw-semibold">A</span>
 				</div>
 				<!--end::Avatar-->
 				<!--begin::Details-->
 				<div class="ms-5">
-					<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Smith</a>
-					<div class="fw-semibold text-muted">smith@kpmg.com</div>
+					<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
+					<div class="fw-semibold text-muted">robert@benko.com</div>
 				</div>
 				<!--end::Details-->
 			</div>
@@ -620,4 +620,4 @@
 	</div>
 	<!--end::Actions-->
 </div>
-<!--end::Results-->
+<!--end::Results-->

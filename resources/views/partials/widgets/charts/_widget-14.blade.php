@@ -11,7 +11,7 @@
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
 			<!--begin::Menu-->
-			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! theme()->getIcon('dots-square', 'fs-1 text-gray-300 me-n1') !!}</button>
+			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! getIcon('dots-square', 'fs-1 text-gray-300 me-n1') !!}</button>
 			@include('partials/menus/_menu-3')
 			<!--end::Menu-->
 		</div>
@@ -26,4 +26,4 @@
 	</div>
 	<!--end::Body-->
 </div>
-<!--end::Chart widget 14-->
+<!--end::Chart widget 14-->

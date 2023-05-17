@@ -39,7 +39,7 @@
 				<label class="required fs-6 fw-semibold mb-2">Due Date</label>
 				<div class="position-relative d-flex align-items-center">
 				<!--begin::Icon-->
-				{!! theme()->getSvgIcon('duotune/general/gen014.svg', 'svg-icon svg-icon-2 position-absolute mx-4') !!}
+				{!! getSvgIcon('duotune/general/gen014.svg', 'svg-icon svg-icon-2 position-absolute mx-4') !!}
 				<!--end::Icon-->
 				<!--begin::Datepicker-->
 				<input class="form-control form-control-solid ps-12" placeholder="Pick date range" name="target_due_date" />

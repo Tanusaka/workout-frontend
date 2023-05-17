@@ -7,16 +7,7 @@
 			<!--begin::Modal header-->
 			<div class="modal-header pb-0 border-0 justify-content-end">
 				<!--begin::Close-->
-				<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-					<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-					<span class="svg-icon svg-icon-1">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
-							<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
-						</svg>
-					</span>
-					<!--end::Svg Icon-->
-				</div>
+				<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">{!! getIcon('cross', 'fs-1') !!}</div>
 				<!--end::Close-->
 			</div>
 			<!--begin::Modal header-->
@@ -28,7 +19,7 @@
 					<h1 class="mb-3">Browse Users</h1>
 					<!--end::Title-->
 					<!--begin::Description-->
-					<div class="text-muted fw-semibold fs-5">If you need more info, please check out our
+					<div class="text-muted fw-semibold fs-5">If you need more info, please check out our 
 					<a href="#" class="link-primary fw-bold">Users Directory</a>.</div>
 					<!--end::Description-->
 				</div>
@@ -43,13 +34,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-6.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Emma Smith
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Emma Smith 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Art Director</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -83,7 +74,7 @@
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Melody Macy
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Melody Macy 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Marketing Analytic</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -111,13 +102,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-1.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Max Smith
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Max Smith 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Software Enginer</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -145,13 +136,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-5.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Sean Bean
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Sean Bean 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Web Developer</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -179,13 +170,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-25.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Brian Cox
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Brian Cox 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">UI/UX Designer</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -219,7 +210,7 @@
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Mikaela Collins
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Mikaela Collins 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Head Of Marketing</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -247,13 +238,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-9.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Francis Mitcham
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Francis Mitcham 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Software Arcitect</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -287,7 +278,7 @@
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Olivia Wild
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Olivia Wild 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">System Admin</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -321,7 +312,7 @@
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Neil Owen
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Neil Owen 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Account Manager</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -349,13 +340,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-23.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-23.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Dan Wilson
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Dan Wilson 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Web Desinger</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -389,7 +380,7 @@
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Emma Bold
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Emma Bold 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Corporate Finance</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -417,13 +408,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-12.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-12.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Ana Crown
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Ana Crown 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Customer Relationship</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -457,7 +448,7 @@
 								<!--begin::Details-->
 								<div class="ms-6">
 									<!--begin::Name-->
-									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Robert Doe
+									<a href="#" class="d-flex align-items-center fs-5 fw-bold text-dark text-hover-primary">Robert Doe 
 									<span class="badge badge-light fs-8 fw-semibold ms-2">Marketing Executive</span></a>
 									<!--end::Name-->
 									<!--begin::Email-->
@@ -506,4 +497,4 @@
 	</div>
 	<!--end::Modal dialog-->
 </div>
-<!--end::Modal - View Users-->
+<!--end::Modal - View Users-->

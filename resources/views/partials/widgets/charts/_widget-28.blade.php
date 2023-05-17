@@ -10,7 +10,7 @@
 				<span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">2,579</span>
 				<!--end::Title-->
 				<!--begin::Label-->
-				<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.2%</span>
+				<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.2%</span>
 				<!--end::Label-->
 			</div>
 			<!--end::Heading-->
@@ -22,7 +22,7 @@
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
 			<!--begin::Menu-->
-			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! theme()->getIcon('dots-square', 'fs-1 text-gray-300 me-n1') !!}</button>
+			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! getIcon('dots-square', 'fs-1 text-gray-300 me-n1') !!}</button>
 			<!--begin::Menu 2-->
 			<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
 				<!--begin::Menu item-->
@@ -102,4 +102,4 @@
 	</div>
 	<!--end::Body-->
 </div>
-<!--end::Chart widget 28-->
+<!--end::Chart widget 28-->

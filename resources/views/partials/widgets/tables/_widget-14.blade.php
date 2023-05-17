@@ -10,7 +10,7 @@
 		<!--end::Title-->
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
-			<a href="/" class="btn btn-sm btn-light">History</a>
+			<a href="#" class="btn btn-sm btn-light">History</a>
 		</div>
 		<!--end::Toolbar-->
 	</div>
@@ -39,7 +39,7 @@
 						<td>
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-50px me-3">
-									<img src="{{ asset(theme()->getMediaUrlPath() . 'stock/600x600/img-49.jpg') }}" class="" alt="" />
+									<img src="assets/media/stock/600x600/img-49.jpg" class="" alt="" />
 								</div>
 								<div class="d-flex justify-content-start flex-column">
 									<a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Mivy App</a>
@@ -52,15 +52,7 @@
 						</td>
 						<td class="text-end pe-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
-							<span class="svg-icon svg-icon-5 svg-icon-success ms-n1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
-									<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->9.2%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 9.2%</span>
 							<!--end::Label-->
 						</td>
 						<td class="text-end pe-12">
@@ -70,23 +62,14 @@
 							<div id="kt_table_widget_14_chart_1" class="h-50px mt-n8 pe-7" data-kt-chart-color="success"></div>
 						</td>
 						<td class="text-end">
-							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-								<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-								<span class="svg-icon svg-icon-5 svg-icon-gray-700">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="currentColor" />
-										<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</a>
+							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">{!! getIcon('black-right', 'fs-2 text-gray-500') !!}</a>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-50px me-3">
-									<img src="{{ asset(theme()->getMediaUrlPath() . 'stock/600x600/img-40.jpg') }}" class="" alt="" />
+									<img src="assets/media/stock/600x600/img-40.jpg" class="" alt="" />
 								</div>
 								<div class="d-flex justify-content-start flex-column">
 									<a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Avionica</a>
@@ -99,15 +82,7 @@
 						</td>
 						<td class="text-end pe-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-danger fs-base">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr065.svg-->
-							<span class="svg-icon svg-icon-5 svg-icon-danger ms-n1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="11" y="18" width="13" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
-									<path d="M11.4343 15.4343L7.25 11.25C6.83579 10.8358 6.16421 10.8358 5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75L11.2929 18.2929C11.6834 18.6834 12.3166 18.6834 12.7071 18.2929L18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25C17.8358 10.8358 17.1642 10.8358 16.75 11.25L12.5657 15.4343C12.2533 15.7467 11.7467 15.7467 11.4343 15.4343Z" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->0.4%</span>
+							<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
 							<!--end::Label-->
 						</td>
 						<td class="text-end pe-12">
@@ -117,23 +92,14 @@
 							<div id="kt_table_widget_14_chart_2" class="h-50px mt-n8 pe-7" data-kt-chart-color="danger"></div>
 						</td>
 						<td class="text-end">
-							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-								<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-								<span class="svg-icon svg-icon-5 svg-icon-gray-700">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="currentColor" />
-										<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</a>
+							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">{!! getIcon('black-right', 'fs-2 text-gray-500') !!}</a>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-50px me-3">
-									<img src="{{ asset(theme()->getMediaUrlPath() . 'stock/600x600/img-39.jpg') }}" class="" alt="" />
+									<img src="assets/media/stock/600x600/img-39.jpg" class="" alt="" />
 								</div>
 								<div class="d-flex justify-content-start flex-column">
 									<a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Charto CRM</a>
@@ -146,15 +112,7 @@
 						</td>
 						<td class="text-end pe-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
-							<span class="svg-icon svg-icon-5 svg-icon-success ms-n1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
-									<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->9.2%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 9.2%</span>
 							<!--end::Label-->
 						</td>
 						<td class="text-end pe-12">
@@ -164,23 +122,14 @@
 							<div id="kt_table_widget_14_chart_3" class="h-50px mt-n8 pe-7" data-kt-chart-color="success"></div>
 						</td>
 						<td class="text-end">
-							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-								<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-								<span class="svg-icon svg-icon-5 svg-icon-gray-700">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="currentColor" />
-										<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</a>
+							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">{!! getIcon('black-right', 'fs-2 text-gray-500') !!}</a>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-50px me-3">
-									<img src="{{ asset(theme()->getMediaUrlPath() . 'stock/600x600/img-47.jpg') }}" class="" alt="" />
+									<img src="assets/media/stock/600x600/img-47.jpg" class="" alt="" />
 								</div>
 								<div class="d-flex justify-content-start flex-column">
 									<a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Tower Hill</a>
@@ -193,15 +142,7 @@
 						</td>
 						<td class="text-end pe-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
-							<span class="svg-icon svg-icon-5 svg-icon-success ms-n1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
-									<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->9.2%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 9.2%</span>
 							<!--end::Label-->
 						</td>
 						<td class="text-end pe-12">
@@ -211,23 +152,14 @@
 							<div id="kt_table_widget_14_chart_4" class="h-50px mt-n8 pe-7" data-kt-chart-color="success"></div>
 						</td>
 						<td class="text-end">
-							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-								<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-								<span class="svg-icon svg-icon-5 svg-icon-gray-700">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="currentColor" />
-										<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</a>
+							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">{!! getIcon('black-right', 'fs-2 text-gray-500') !!}</a>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-50px me-3">
-									<img src="{{ asset(theme()->getMediaUrlPath() . 'stock/600x600/img-48.jpg') }}" class="" alt="" />
+									<img src="assets/media/stock/600x600/img-48.jpg" class="" alt="" />
 								</div>
 								<div class="d-flex justify-content-start flex-column">
 									<a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">9 Degree</a>
@@ -240,15 +172,7 @@
 						</td>
 						<td class="text-end pe-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-danger fs-base">
-							<!--begin::Svg Icon | path: icons/duotune/arrows/arr065.svg-->
-							<span class="svg-icon svg-icon-5 svg-icon-danger ms-n1">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect opacity="0.5" x="11" y="18" width="13" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
-									<path d="M11.4343 15.4343L7.25 11.25C6.83579 10.8358 6.16421 10.8358 5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75L11.2929 18.2929C11.6834 18.6834 12.3166 18.6834 12.7071 18.2929L18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25C17.8358 10.8358 17.1642 10.8358 16.75 11.25L12.5657 15.4343C12.2533 15.7467 11.7467 15.7467 11.4343 15.4343Z" fill="currentColor" />
-								</svg>
-							</span>
-							<!--end::Svg Icon-->0.4%</span>
+							<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
 							<!--end::Label-->
 						</td>
 						<td class="text-end pe-12">
@@ -258,16 +182,7 @@
 							<div id="kt_table_widget_14_chart_5" class="h-50px mt-n8 pe-7" data-kt-chart-color="danger"></div>
 						</td>
 						<td class="text-end">
-							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-								<!--begin::Svg Icon | path: icons/duotune/arrows/arr001.svg-->
-								<span class="svg-icon svg-icon-5 svg-icon-gray-700">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14.4 11H3C2.4 11 2 11.4 2 12C2 12.6 2.4 13 3 13H14.4V11Z" fill="currentColor" />
-										<path opacity="0.3" d="M14.4 20V4L21.7 11.3C22.1 11.7 22.1 12.3 21.7 12.7L14.4 20Z" fill="currentColor" />
-									</svg>
-								</span>
-								<!--end::Svg Icon-->
-							</a>
+							<a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">{!! getIcon('black-right', 'fs-2 text-gray-500') !!}</a>
 						</td>
 					</tr>
 				</tbody>

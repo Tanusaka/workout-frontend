@@ -11,7 +11,7 @@
         <!--end::Modal title-->
         <!--begin::Close-->
         <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-          {!! theme()->getSvgIcon('duotune/arrows/arr061.svg', 'svg-icon svg-icon-1') !!}
+          {!! getSvgIcon('duotune/arrows/arr061.svg', 'svg-icon svg-icon-1') !!}
         </div>
         <!--end::Close-->
       </div>

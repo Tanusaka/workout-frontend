@@ -5,14 +5,14 @@
 		<div class="menu-content d-flex align-items-center px-3">
 			<!--begin::Avatar-->
 			<div class="symbol symbol-50px me-5">
-				<img alt="Logo" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-3.jpg') }}" />
+				<img alt="Logo" src="assets/media/avatars/300-1.jpg" />
 			</div>
 			<!--end::Avatar-->
 			<!--begin::Username-->
 			<div class="d-flex flex-column">
-				<div class="fw-bold d-flex align-items-center fs-5">Johnson
+				<div class="fw-bold d-flex align-items-center fs-5">Max Smith
 				<span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">Pro</span></div>
-				<a href="#" class="fw-semibold text-muted text-hover-primary fs-7">React Developer</a>
+				<a href="#" class="fw-semibold text-muted text-hover-primary fs-7">max@kt.com</a>
 			</div>
 			<!--end::Username-->
 		</div>
@@ -23,12 +23,12 @@
 	<!--end::Menu separator-->
 	<!--begin::Menu item-->
 	<div class="menu-item px-5">
-		<a href="/" class="menu-link px-5">My Profile</a>
+		<a href="#" class="menu-link px-5">My Profile</a>
 	</div>
 	<!--end::Menu item-->
 	<!--begin::Menu item-->
 	<div class="menu-item px-5">
-		<a href="/" class="menu-link px-5">
+		<a href="#" class="menu-link px-5">
 			<span class="menu-text">My Projects</span>
 			<span class="menu-badge">
 				<span class="badge badge-light-danger badge-circle fw-bold fs-7">3</span>
@@ -46,22 +46,22 @@
 		<div class="menu-sub menu-sub-dropdown w-175px py-4">
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link px-5">Referrals</a>
+				<a href="#" class="menu-link px-5">Referrals</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link px-5">Billing</a>
+				<a href="#" class="menu-link px-5">Billing</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link px-5">Payments</a>
+				<a href="#" class="menu-link px-5">Payments</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link d-flex flex-stack px-5">Statements
+				<a href="#" class="menu-link d-flex flex-stack px-5">Statements
 				<span class="ms-2" data-bs-toggle="tooltip" title="View your statements"></span></a>
 			</div>
 			<!--end::Menu item-->
@@ -84,7 +84,7 @@
 	<!--end::Menu item-->
 	<!--begin::Menu item-->
 	<div class="menu-item px-5">
-		<a href="/" class="menu-link px-5">My Statements</a>
+		<a href="#" class="menu-link px-5">My Statements</a>
 	</div>
 	<!--end::Menu item-->
 	<!--begin::Menu separator-->
@@ -93,58 +93,49 @@
 	<!--begin::Menu item-->
 	<div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
 		<a href="#" class="menu-link px-5">
-			<span class="menu-title position-relative">Mode
-			<span class="ms-5 position-absolute translate-middle-y top-50 end-0">{!! theme()->getIcon('night-day', 'theme-light-show fs-2') !!} {!! theme()->getIcon('moon', 'theme-dark-show fs-2') !!}</span></span>
-		</a>
-		@include('partials/theme-mode/__menu')
-	</div>
-	<!--end::Menu item-->
-	<!--begin::Menu item-->
-	<div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
-		<a href="#" class="menu-link px-5">
 			<span class="menu-title position-relative">Language
 			<span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
-			<img class="w-15px h-15px rounded-1 ms-2" src="{{ asset(theme()->getMediaUrlPath() . 'flags/united-states.svg') }}" alt="" /></span></span>
+			<img class="w-15px h-15px rounded-1 ms-2" src="assets/media/flags/united-states.svg" alt="" /></span></span>
 		</a>
 		<!--begin::Menu sub-->
 		<div class="menu-sub menu-sub-dropdown w-175px py-4">
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link d-flex px-5 active">
+				<a href="#" class="menu-link d-flex px-5 active">
 				<span class="symbol symbol-20px me-4">
-					<img class="rounded-1" src="{{ asset(theme()->getMediaUrlPath() . 'flags/united-states.svg') }}" alt="" />
+					<img class="rounded-1" src="assets/media/flags/united-states.svg" alt="" />
 				</span>English</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link d-flex px-5">
+				<a href="#" class="menu-link d-flex px-5">
 				<span class="symbol symbol-20px me-4">
-					<img class="rounded-1" src="{{ asset(theme()->getMediaUrlPath() . 'flags/spain.svg') }}" alt="" />
+					<img class="rounded-1" src="assets/media/flags/spain.svg" alt="" />
 				</span>Spanish</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link d-flex px-5">
+				<a href="#" class="menu-link d-flex px-5">
 				<span class="symbol symbol-20px me-4">
-					<img class="rounded-1" src="{{ asset(theme()->getMediaUrlPath() . 'flags/germany.svg') }}" alt="" />
+					<img class="rounded-1" src="assets/media/flags/germany.svg" alt="" />
 				</span>German</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link d-flex px-5">
+				<a href="#" class="menu-link d-flex px-5">
 				<span class="symbol symbol-20px me-4">
-					<img class="rounded-1" src="{{ asset(theme()->getMediaUrlPath() . 'flags/japan.svg') }}" alt="" />
+					<img class="rounded-1" src="assets/media/flags/japan.svg" alt="" />
 				</span>Japanese</a>
 			</div>
 			<!--end::Menu item-->
 			<!--begin::Menu item-->
 			<div class="menu-item px-3">
-				<a href="/" class="menu-link d-flex px-5">
+				<a href="#" class="menu-link d-flex px-5">
 				<span class="symbol symbol-20px me-4">
-					<img class="rounded-1" src="{{ asset(theme()->getMediaUrlPath() . 'flags/france.svg') }}" alt="" />
+					<img class="rounded-1" src="assets/media/flags/france.svg" alt="" />
 				</span>French</a>
 			</div>
 			<!--end::Menu item-->
@@ -154,13 +145,13 @@
 	<!--end::Menu item-->
 	<!--begin::Menu item-->
 	<div class="menu-item px-5 my-1">
-		<a href="/" class="menu-link px-5">Account Settings</a>
+		<a href="#" class="menu-link px-5">Account Settings</a>
 	</div>
 	<!--end::Menu item-->
 	<!--begin::Menu item-->
 	<div class="menu-item px-5">
-		<a class="button-ajax menu-link px-5" href="#" data-action="{{ route('logout') }}" data-method="post" data-csrf="{{ csrf_token() }}" data-reload="true">
-            {{ __('Sign Out') }}
+        <a class="button-ajax menu-link px-5" href="#" data-action="{{ route('logout') }}" data-method="post" data-csrf="{{ csrf_token() }}" data-reload="true">
+            Sign Out
         </a>
 	</div>
 	<!--end::Menu item-->

@@ -7,7 +7,7 @@
 			<!--begin::Modal header-->
 			<div class="modal-header pb-0 border-0 justify-content-end">
 				<!--begin::Close-->
-				<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">{!! theme()->getIcon('cross', 'fs-1') !!}</div>
+				<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">{!! getIcon('cross', 'fs-1') !!}</div>
 				<!--end::Close-->
 			</div>
 			<!--begin::Modal header-->
@@ -19,14 +19,14 @@
 					<h1 class="mb-3">Invite a Friend</h1>
 					<!--end::Title-->
 					<!--begin::Description-->
-					<div class="text-muted fw-semibold fs-5">If you need more info, please check out
+					<div class="text-muted fw-semibold fs-5">If you need more info, please check out 
 					<a href="#" class="link-primary fw-bold">FAQ Page</a>.</div>
 					<!--end::Description-->
 				</div>
 				<!--end::Heading-->
 				<!--begin::Google Contacts Invite-->
 				<div class="btn btn-light-primary fw-bold w-100 mb-8">
-				<img alt="Logo" src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/google-icon.svg') }}" class="h-20px me-3" />Invite Gmail Contacts</div>
+				<img alt="Logo" src="assets/media/svg/brand-logos/google-icon.svg" class="h-20px me-3" />Invite Gmail Contacts</div>
 				<!--end::Google Contacts Invite-->
 				<!--begin::Separator-->
 				<div class="separator d-flex flex-center mb-8">
@@ -49,7 +49,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-6.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -105,7 +105,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-1.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -133,7 +133,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-5.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -161,7 +161,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-25.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-25.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -217,7 +217,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-9.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -301,7 +301,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-23.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-23.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -357,7 +357,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-12.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-12.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -413,7 +413,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-13.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-13.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -469,7 +469,7 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<img alt="Pic" src="{{ asset(theme()->getMediaUrlPath() . 'avatars/300-21.jpg') }}" />
+									<img alt="Pic" src="assets/media/avatars/300-21.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
@@ -497,13 +497,13 @@
 							<div class="d-flex align-items-center">
 								<!--begin::Avatar-->
 								<div class="symbol symbol-35px symbol-circle">
-									<span class="symbol-label bg-light-info text-info fw-semibold">A</span>
+									<img alt="Pic" src="assets/media/avatars/300-21.jpg" />
 								</div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-5">
-									<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
-									<div class="fw-semibold text-muted">robert@benko.com</div>
+									<a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ethan Wilder</a>
+									<div class="fw-semibold text-muted">ethan@loop.com.au</div>
 								</div>
 								<!--end::Details-->
 							</div>
@@ -546,4 +546,4 @@
 	</div>
 	<!--end::Modal dialog-->
 </div>
-<!--end::Modal - Invite Friend-->
+<!--end::Modal - Invite Friend-->

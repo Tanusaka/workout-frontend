@@ -1,1 +1,1 @@
-<span class="ms-1" data-bs-toggle="tooltip" title="Enter a card CVV code"></span>
+<span class="ms-1" data-bs-toggle="tooltip" title="Specify a target priorty"></span>

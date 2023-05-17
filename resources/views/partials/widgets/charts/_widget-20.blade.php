@@ -12,7 +12,7 @@
 			<!--begin::Display range-->
 			<div class="text-gray-600 fw-bold">Loading date range...</div>
 			<!--end::Display range-->
-			{!! theme()->getIcon('calendar-8', 'fs-1 ms-2 me-0') !!}</div>
+			{!! getIcon('calendar-8', 'fs-1 ms-2 me-0') !!}</div>
 			<!--end::Daterangepicker-->
 		</div>
 		<!--end::Toolbar-->
@@ -59,7 +59,7 @@
 					<span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">4,684</span>
 					<!--end::Value-->
 					<!--begin::Label-->
-					<span class="badge badge-light-success fs-base">{!! theme()->getIcon('black-up', 'fs-7 text-success ms-n1') !!} 4.5%</span>
+					<span class="badge badge-light-success fs-base">{!! getIcon('black-up', 'fs-7 text-success ms-n1') !!} 4.5%</span>
 					<!--end::Label-->
 				</div>
 				<!--end::Statistics-->
@@ -76,4 +76,4 @@
 	</div>
 	<!--end::Card body-->
 </div>
-<!--end::Chart widget 20-->
+<!--end::Chart widget 20-->

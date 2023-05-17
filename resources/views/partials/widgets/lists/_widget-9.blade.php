@@ -20,7 +20,7 @@
 		<!--begin::Item-->
 		<div class="d-flex flex-stack">
 			<!--begin::Flag-->
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/dribbble-icon-1.svg') }}" class="me-4 w-30px" style="border-radius: 4px" alt="" />
+			<img src="assets/media/svg/brand-logos/dribbble-icon-1.svg" class="me-4 w-30px" style="border-radius: 4px" alt="" />
 			<!--end::Flag-->
 			<!--begin::Section-->
 			<div class="d-flex align-items-center flex-stack flex-wrap flex-row-fluid d-grid gap-2">
@@ -42,7 +42,7 @@
 					<!--begin::Info-->
 					<div class="m-0">
 						<!--begin::Label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.6%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.6%</span>
 						<!--end::Label-->
 					</div>
 					<!--end::Info-->
@@ -58,7 +58,7 @@
 		<!--begin::Item-->
 		<div class="d-flex flex-stack">
 			<!--begin::Flag-->
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/linkedin-1.svg') }}" class="me-4 w-30px" style="border-radius: 4px" alt="" />
+			<img src="assets/media/svg/brand-logos/linkedin-1.svg" class="me-4 w-30px" style="border-radius: 4px" alt="" />
 			<!--end::Flag-->
 			<!--begin::Section-->
 			<div class="d-flex align-items-center flex-stack flex-wrap flex-row-fluid d-grid gap-2">
@@ -80,7 +80,7 @@
 					<!--begin::Info-->
 					<div class="m-0">
 						<!--begin::Label-->
-						<span class="badge badge-light-danger fs-base">{!! theme()->getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
+						<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
 						<!--end::Label-->
 					</div>
 					<!--end::Info-->
@@ -96,7 +96,7 @@
 		<!--begin::Item-->
 		<div class="d-flex flex-stack">
 			<!--begin::Flag-->
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/slack-icon.svg') }}" class="me-4 w-30px" style="border-radius: 4px" alt="" />
+			<img src="assets/media/svg/brand-logos/slack-icon.svg" class="me-4 w-30px" style="border-radius: 4px" alt="" />
 			<!--end::Flag-->
 			<!--begin::Section-->
 			<div class="d-flex align-items-center flex-stack flex-wrap flex-row-fluid d-grid gap-2">
@@ -118,7 +118,7 @@
 					<!--begin::Info-->
 					<div class="m-0">
 						<!--begin::Label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 0.2%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 0.2%</span>
 						<!--end::Label-->
 					</div>
 					<!--end::Info-->
@@ -134,7 +134,7 @@
 		<!--begin::Item-->
 		<div class="d-flex flex-stack">
 			<!--begin::Flag-->
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/youtube-3.svg') }}" class="me-4 w-30px" style="border-radius: 4px" alt="" />
+			<img src="assets/media/svg/brand-logos/youtube-3.svg" class="me-4 w-30px" style="border-radius: 4px" alt="" />
 			<!--end::Flag-->
 			<!--begin::Section-->
 			<div class="d-flex align-items-center flex-stack flex-wrap flex-row-fluid d-grid gap-2">
@@ -156,7 +156,7 @@
 					<!--begin::Info-->
 					<div class="m-0">
 						<!--begin::Label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 4.1%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 4.1%</span>
 						<!--end::Label-->
 					</div>
 					<!--end::Info-->
@@ -172,7 +172,7 @@
 		<!--begin::Item-->
 		<div class="d-flex flex-stack">
 			<!--begin::Flag-->
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/instagram-2-1.svg') }}" class="me-4 w-30px" style="border-radius: 4px" alt="" />
+			<img src="assets/media/svg/brand-logos/instagram-2-1.svg" class="me-4 w-30px" style="border-radius: 4px" alt="" />
 			<!--end::Flag-->
 			<!--begin::Section-->
 			<div class="d-flex align-items-center flex-stack flex-wrap flex-row-fluid d-grid gap-2">
@@ -194,7 +194,7 @@
 					<!--begin::Info-->
 					<div class="m-0">
 						<!--begin::Label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 8.3%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 8.3%</span>
 						<!--end::Label-->
 					</div>
 					<!--end::Info-->
@@ -210,7 +210,7 @@
 		<!--begin::Item-->
 		<div class="d-flex flex-stack">
 			<!--begin::Flag-->
-			<img src="{{ asset(theme()->getMediaUrlPath() . 'svg/brand-logos/facebook-3.svg') }}" class="me-4 w-30px" style="border-radius: 4px" alt="" />
+			<img src="assets/media/svg/brand-logos/facebook-3.svg" class="me-4 w-30px" style="border-radius: 4px" alt="" />
 			<!--end::Flag-->
 			<!--begin::Section-->
 			<div class="d-flex align-items-center flex-stack flex-wrap flex-row-fluid d-grid gap-2">
@@ -232,7 +232,7 @@
 					<!--begin::Info-->
 					<div class="m-0">
 						<!--begin::Label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 1.9%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 1.9%</span>
 						<!--end::Label-->
 					</div>
 					<!--end::Info-->
@@ -245,4 +245,4 @@
 	</div>
 	<!--end::Body-->
 </div>
-<!--end::List widget 9-->
+<!--end::List widget 9-->

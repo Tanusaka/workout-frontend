@@ -3,7 +3,7 @@
 	<!--begin::Menu item-->
 	<div class="menu-item px-3 my-0">
 		<a href="#" class="menu-link px-3 py-2" data-kt-element="mode" data-kt-value="light">
-			<span class="menu-icon" data-kt-element="icon">{!! theme()->getIcon('night-day', 'fs-2') !!}</span>
+			<span class="menu-icon" data-kt-element="icon">{!! getIcon('night-day', 'fs-2') !!}</span>
 			<span class="menu-title">Light</span>
 		</a>
 	</div>
@@ -11,7 +11,7 @@
 	<!--begin::Menu item-->
 	<div class="menu-item px-3 my-0">
 		<a href="#" class="menu-link px-3 py-2" data-kt-element="mode" data-kt-value="dark">
-			<span class="menu-icon" data-kt-element="icon">{!! theme()->getIcon('moon', 'fs-2') !!}</span>
+			<span class="menu-icon" data-kt-element="icon">{!! getIcon('moon', 'fs-2') !!}</span>
 			<span class="menu-title">Dark</span>
 		</a>
 	</div>
@@ -19,10 +19,10 @@
 	<!--begin::Menu item-->
 	<div class="menu-item px-3 my-0">
 		<a href="#" class="menu-link px-3 py-2" data-kt-element="mode" data-kt-value="system">
-			<span class="menu-icon" data-kt-element="icon">{!! theme()->getIcon('screen', 'fs-2') !!}</span>
+			<span class="menu-icon" data-kt-element="icon">{!! getIcon('screen', 'fs-2') !!}</span>
 			<span class="menu-title">System</span>
 		</a>
 	</div>
 	<!--end::Menu item-->
 </div>
-<!--end::Menu-->
+<!--end::Menu-->

@@ -23,7 +23,7 @@
 				<!--begin::Label-->
 				<span class="d-flex">
 				<!--begin::Icon-->
-				{!! theme()->getSvgIcon('duotune/communication/com006.svg', 'svg-icon svg-icon-3hx') !!}
+				{!! getSvgIcon('duotune/communication/com006.svg', 'svg-icon svg-icon-3hx') !!}
 				<!--end::Icon-->
 				<!--begin::Info-->
 				<span class="ms-4">
@@ -42,7 +42,7 @@
 				<!--begin::Label-->
 				<span class="d-flex">
 				<!--begin::Icon-->
-				{!! theme()->getSvgIcon('duotune/general/gen002.svg', 'svg-icon svg-icon-3hx') !!}
+				{!! getSvgIcon('duotune/general/gen002.svg', 'svg-icon svg-icon-3hx') !!}
 				<!--end::Icon-->
 				<!--begin::Info-->
 				<span class="ms-4">

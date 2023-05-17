@@ -10,7 +10,7 @@
 				<span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">0.37%</span>
 				<!--end::Title-->
 				<!--begin::Badge-->
-				<span class="badge badge-light-danger fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-danger ms-n1') !!} 8.02%</span>
+				<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-up', 'fs-5 text-danger ms-n1') !!} 8.02%</span>
 				<!--end::Badge-->
 			</div>
 			<!--end::Heading-->
@@ -22,7 +22,7 @@
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
 			<!--begin::Menu-->
-			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! theme()->getIcon('dots-square', 'fs-1 text-gray-300 me-n1') !!}</button>
+			<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">{!! getIcon('dots-square', 'fs-1 text-gray-300 me-n1') !!}</button>
 			@include('partials/menus/_menu-2')
 			<!--end::Menu-->
 		</div>
@@ -39,7 +39,7 @@
 				<div class="d-flex align-items-center me-5">
 					<!--begin::Symbol-->
 					<div class="symbol symbol-30px me-5">
-						<span class="symbol-label">{!! theme()->getIcon('magnifier', 'fs-3 text-gray-600') !!}</span>
+						<span class="symbol-label">{!! getIcon('magnifier', 'fs-3 text-gray-600') !!}</span>
 					</div>
 					<!--end::Symbol-->
 					<!--begin::Content-->
@@ -62,7 +62,7 @@
 					<!--begin::Info-->
 					<div class="d-flex flex-center">
 						<!--begin::label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.4%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.4%</span>
 						<!--end::label-->
 					</div>
 					<!--end::Info-->
@@ -79,7 +79,7 @@
 				<div class="d-flex align-items-center me-5">
 					<!--begin::Symbol-->
 					<div class="symbol symbol-30px me-5">
-						<span class="symbol-label">{!! theme()->getIcon('tiktok', 'fs-3 text-gray-600') !!}</span>
+						<span class="symbol-label">{!! getIcon('tiktok', 'fs-3 text-gray-600') !!}</span>
 					</div>
 					<!--end::Symbol-->
 					<!--begin::Content-->
@@ -102,7 +102,7 @@
 					<!--begin::Info-->
 					<div class="d-flex flex-center">
 						<!--begin::label-->
-						<span class="badge badge-light-danger fs-base">{!! theme()->getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 9.4%</span>
+						<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 9.4%</span>
 						<!--end::label-->
 					</div>
 					<!--end::Info-->
@@ -119,7 +119,7 @@
 				<div class="d-flex align-items-center me-5">
 					<!--begin::Symbol-->
 					<div class="symbol symbol-30px me-5">
-						<span class="symbol-label">{!! theme()->getIcon('sms', 'fs-3 text-gray-600') !!}</span>
+						<span class="symbol-label">{!! getIcon('sms', 'fs-3 text-gray-600') !!}</span>
 					</div>
 					<!--end::Symbol-->
 					<!--begin::Content-->
@@ -142,7 +142,7 @@
 					<!--begin::Info-->
 					<div class="d-flex flex-center">
 						<!--begin::label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 0.2%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 0.2%</span>
 						<!--end::label-->
 					</div>
 					<!--end::Info-->
@@ -159,7 +159,7 @@
 				<div class="d-flex align-items-center me-5">
 					<!--begin::Symbol-->
 					<div class="symbol symbol-30px me-5">
-						<span class="symbol-label">{!! theme()->getIcon('icon', 'fs-3 text-gray-600') !!}</span>
+						<span class="symbol-label">{!! getIcon('icon', 'fs-3 text-gray-600') !!}</span>
 					</div>
 					<!--end::Symbol-->
 					<!--begin::Content-->
@@ -182,7 +182,7 @@
 					<!--begin::Info-->
 					<div class="d-flex flex-center">
 						<!--begin::label-->
-						<span class="badge badge-light-danger fs-base">{!! theme()->getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
+						<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
 						<!--end::label-->
 					</div>
 					<!--end::Info-->
@@ -199,7 +199,7 @@
 				<div class="d-flex align-items-center me-5">
 					<!--begin::Symbol-->
 					<div class="symbol symbol-30px me-5">
-						<span class="symbol-label">{!! theme()->getIcon('abstract-25', 'fs-3 text-gray-600') !!}</span>
+						<span class="symbol-label">{!! getIcon('abstract-25', 'fs-3 text-gray-600') !!}</span>
 					</div>
 					<!--end::Symbol-->
 					<!--begin::Content-->
@@ -222,7 +222,7 @@
 					<!--begin::Info-->
 					<div class="d-flex flex-center">
 						<!--begin::label-->
-						<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 8.3%</span>
+						<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 8.3%</span>
 						<!--end::label-->
 					</div>
 					<!--end::Info-->
@@ -235,4 +235,4 @@
 	</div>
 	<!--end::Body-->
 </div>
-<!--end::List widget 7-->
+<!--end::List widget 7-->

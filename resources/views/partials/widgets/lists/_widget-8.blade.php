@@ -22,7 +22,7 @@
 			<!--begin::Item-->
 			<div class="d-flex flex-stack">
 				<!--begin::Flag-->
-				<img src="{{ asset(theme()->getMediaUrlPath() . 'flags/united-states.svg') }}" class="me-4 w-25px" style="border-radius: 4px" alt="" />
+				<img src="assets/media/flags/united-states.svg" class="me-4 w-25px" style="border-radius: 4px" alt="" />
 				<!--end::Flag-->
 				<!--begin::Section-->
 				<div class="d-flex flex-stack flex-row-fluid d-grid gap-2">
@@ -44,7 +44,7 @@
 						<!--begin::Label-->
 						<div class="m-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.6%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 2.6%</span>
 							<!--end::Label-->
 						</div>
 						<!--end::Label-->
@@ -60,7 +60,7 @@
 			<!--begin::Item-->
 			<div class="d-flex flex-stack">
 				<!--begin::Flag-->
-				<img src="{{ asset(theme()->getMediaUrlPath() . 'flags/brazil.svg') }}" class="me-4 w-25px" style="border-radius: 4px" alt="" />
+				<img src="assets/media/flags/brazil.svg" class="me-4 w-25px" style="border-radius: 4px" alt="" />
 				<!--end::Flag-->
 				<!--begin::Section-->
 				<div class="d-flex flex-stack flex-row-fluid d-grid gap-2">
@@ -82,7 +82,7 @@
 						<!--begin::Label-->
 						<div class="m-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-danger fs-base">{!! theme()->getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
+							<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 0.4%</span>
 							<!--end::Label-->
 						</div>
 						<!--end::Label-->
@@ -98,7 +98,7 @@
 			<!--begin::Item-->
 			<div class="d-flex flex-stack">
 				<!--begin::Flag-->
-				<img src="{{ asset(theme()->getMediaUrlPath() . 'flags/turkey.svg') }}" class="me-4 w-25px" style="border-radius: 4px" alt="" />
+				<img src="assets/media/flags/turkey.svg" class="me-4 w-25px" style="border-radius: 4px" alt="" />
 				<!--end::Flag-->
 				<!--begin::Section-->
 				<div class="d-flex flex-stack flex-row-fluid d-grid gap-2">
@@ -120,7 +120,7 @@
 						<!--begin::Label-->
 						<div class="m-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 0.2%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 0.2%</span>
 							<!--end::Label-->
 						</div>
 						<!--end::Label-->
@@ -136,7 +136,7 @@
 			<!--begin::Item-->
 			<div class="d-flex flex-stack">
 				<!--begin::Flag-->
-				<img src="{{ asset(theme()->getMediaUrlPath() . 'flags/france.svg') }}" class="me-4 w-25px" style="border-radius: 4px" alt="" />
+				<img src="assets/media/flags/france.svg" class="me-4 w-25px" style="border-radius: 4px" alt="" />
 				<!--end::Flag-->
 				<!--begin::Section-->
 				<div class="d-flex flex-stack flex-row-fluid d-grid gap-2">
@@ -158,7 +158,7 @@
 						<!--begin::Label-->
 						<div class="m-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 4.1%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 4.1%</span>
 							<!--end::Label-->
 						</div>
 						<!--end::Label-->
@@ -174,7 +174,7 @@
 			<!--begin::Item-->
 			<div class="d-flex flex-stack">
 				<!--begin::Flag-->
-				<img src="{{ asset(theme()->getMediaUrlPath() . 'flags/india.svg') }}" class="me-4 w-25px" style="border-radius: 4px" alt="" />
+				<img src="assets/media/flags/india.svg" class="me-4 w-25px" style="border-radius: 4px" alt="" />
 				<!--end::Flag-->
 				<!--begin::Section-->
 				<div class="d-flex flex-stack flex-row-fluid d-grid gap-2">
@@ -196,7 +196,7 @@
 						<!--begin::Label-->
 						<div class="m-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-danger fs-base">{!! theme()->getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 8.3%</span>
+							<span class="badge badge-light-danger fs-base">{!! getIcon('arrow-down', 'fs-5 text-danger ms-n1') !!} 8.3%</span>
 							<!--end::Label-->
 						</div>
 						<!--end::Label-->
@@ -212,7 +212,7 @@
 			<!--begin::Item-->
 			<div class="d-flex flex-stack">
 				<!--begin::Flag-->
-				<img src="{{ asset(theme()->getMediaUrlPath() . 'flags/sweden.svg') }}" class="me-4 w-25px" style="border-radius: 4px" alt="" />
+				<img src="assets/media/flags/sweden.svg" class="me-4 w-25px" style="border-radius: 4px" alt="" />
 				<!--end::Flag-->
 				<!--begin::Section-->
 				<div class="d-flex flex-stack flex-row-fluid d-grid gap-2">
@@ -234,7 +234,7 @@
 						<!--begin::Label-->
 						<div class="m-0">
 							<!--begin::Label-->
-							<span class="badge badge-light-success fs-base">{!! theme()->getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 1.9%</span>
+							<span class="badge badge-light-success fs-base">{!! getIcon('arrow-up', 'fs-5 text-success ms-n1') !!} 1.9%</span>
 							<!--end::Label-->
 						</div>
 						<!--end::Label-->

@@ -10,7 +10,7 @@
 		<!--end::Title-->
 		<!--begin::Toolbar-->
 		<div class="card-toolbar">
-			<a href="/" class="btn btn-sm btn-light">PDF Report</a>
+			<a href="#" class="btn btn-sm btn-light">PDF Report</a>
 		</div>
 		<!--end::Toolbar-->
 	</div>

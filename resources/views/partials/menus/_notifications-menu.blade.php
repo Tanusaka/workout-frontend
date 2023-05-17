@@ -33,7 +33,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-primary">{!! theme()->getIcon('abstract-28', 'fs-2 text-primary') !!}</span>
+							<span class="symbol-label bg-light-primary">{!! getIcon('abstract-28', 'fs-2 text-primary') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -55,7 +55,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-danger">{!! theme()->getIcon('information', 'fs-2 text-danger') !!}</span>
+							<span class="symbol-label bg-light-danger">{!! getIcon('information', 'fs-2 text-danger') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -77,7 +77,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-warning">{!! theme()->getIcon('briefcase', 'fs-2 text-warning') !!}</span>
+							<span class="symbol-label bg-light-warning">{!! getIcon('briefcase', 'fs-2 text-warning') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -99,7 +99,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-success">{!! theme()->getIcon('abstract-12', 'fs-2 text-success') !!}</span>
+							<span class="symbol-label bg-light-success">{!! getIcon('abstract-12', 'fs-2 text-success') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -121,7 +121,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-primary">{!! theme()->getIcon('colors-square', 'fs-2 text-primary') !!}</span>
+							<span class="symbol-label bg-light-primary">{!! getIcon('colors-square', 'fs-2 text-primary') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -143,7 +143,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-info">{!! theme()->getIcon('picture ', 'fs-2 text-info') !!}</span>
+							<span class="symbol-label bg-light-info">{!! getIcon('picture ', 'fs-2 text-info') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -165,7 +165,7 @@
 					<div class="d-flex align-items-center">
 						<!--begin::Symbol-->
 						<div class="symbol symbol-35px me-4">
-							<span class="symbol-label bg-light-warning">{!! theme()->getIcon('color-swatch', 'fs-2 text-warning') !!}</span>
+							<span class="symbol-label bg-light-warning">{!! getIcon('color-swatch', 'fs-2 text-warning') !!}</span>
 						</div>
 						<!--end::Symbol-->
 						<!--begin::Title-->
@@ -185,7 +185,7 @@
 			<!--end::Items-->
 			<!--begin::View more-->
 			<div class="py-3 text-center border-top">
-				<a href="/" class="btn btn-color-gray-600 btn-active-color-primary">View All {!! theme()->getIcon('arrow-right', 'fs-5') !!}</a>
+				<a href="#" class="btn btn-color-gray-600 btn-active-color-primary">View All {!! getIcon('arrow-right', 'fs-5') !!}</a>
 			</div>
 			<!--end::View more-->
 		</div>
@@ -211,7 +211,7 @@
 				<!--end::Section-->
 				<!--begin::Illustration-->
 				<div class="text-center px-4">
-					<img class="mw-100 mh-200px" alt="image" src="{{ asset(theme()->getMediaUrlPath() . 'illustrations/dozzy-1/1.png') }}" />
+					<img class="mw-100 mh-200px" alt="image" src="assets/media/illustrations/sketchy-1/1.png" />
 				</div>
 				<!--end::Illustration-->
 			</div>
@@ -430,7 +430,7 @@
 			<!--end::Items-->
 			<!--begin::View more-->
 			<div class="py-3 text-center border-top">
-				<a href="/" class="btn btn-color-gray-600 btn-active-color-primary">View All {!! theme()->getIcon('arrow-right', 'fs-5') !!}</a>
+				<a href="#" class="btn btn-color-gray-600 btn-active-color-primary">View All {!! getIcon('arrow-right', 'fs-5') !!}</a>
 			</div>
 			<!--end::View more-->
 		</div>
