@@ -7,252 +7,145 @@
 			<!--begin:Menu item-->
 			<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
 				<!--begin:Menu link-->
-				<span class="menu-link">
+				<a class="menu-link" href="/">
 					<span class="menu-icon">{!! getIcon('element-11', 'fs-2') !!}</span>
-					<span class="menu-title">Dashboards</span>
-					<span class="menu-arrow"></span>
-				</span>
+					<span class="menu-title">Dashboard</span>
+				</a>
 				<!--end:Menu link-->
-				<!--begin:Menu sub-->
-				<div class="menu-sub menu-sub-accordion">
-					<!--begin:Menu item-->
-					<div class="menu-item">
-						<!--begin:Menu link-->
-						<a class="menu-link active" href="/">
-							<span class="menu-bullet">
-								<span class="bullet bullet-dot"></span>
-							</span>
-							<span class="menu-title">Default</span>
-						</a>
-						<!--end:Menu link-->
-					</div>
-					<!--end:Menu item-->
-					<!--begin:Menu item-->
-					<div class="menu-item">
-						<!--begin:Menu link-->
-						<a class="menu-link" href="/">
-							<span class="menu-bullet">
-								<span class="bullet bullet-dot"></span>
-							</span>
-							<span class="menu-title">eCommerce</span>
-						</a>
-						<!--end:Menu link-->
-					</div>
-					<!--end:Menu item-->
-					<!--begin:Menu item-->
-					<div class="menu-item">
-						<!--begin:Menu link-->
-						<a class="menu-link" href="/">
-							<span class="menu-bullet">
-								<span class="bullet bullet-dot"></span>
-							</span>
-							<span class="menu-title">Projects</span>
-						</a>
-						<!--end:Menu link-->
-					</div>
-					<!--end:Menu item-->
-					<!--begin:Menu item-->
-					<div class="menu-item">
-						<!--begin:Menu link-->
-						<a class="menu-link" href="/">
-							<span class="menu-bullet">
-								<span class="bullet bullet-dot"></span>
-							</span>
-							<span class="menu-title">Online Courses</span>
-						</a>
-						<!--end:Menu link-->
-					</div>
-					<!--end:Menu item-->
-					<!--begin:Menu item-->
-					<div class="menu-item">
-						<!--begin:Menu link-->
-						<a class="menu-link" href="/">
-							<span class="menu-bullet">
-								<span class="bullet bullet-dot"></span>
-							</span>
-							<span class="menu-title">Marketing</span>
-						</a>
-						<!--end:Menu link-->
-					</div>
-					<!--end:Menu item-->
-					<div class="menu-inner flex-column collapse" id="kt_app_sidebar_menu_dashboards_collapse">
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Bidding</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">POS System</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Call Center</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Logistics</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Website Analytics</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Finance Performance</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Store Analytics</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Social</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Delivery</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Crypto</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">School</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Podcast</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-						<!--begin:Menu item-->
-						<div class="menu-item">
-							<!--begin:Menu link-->
-							<a class="menu-link" href="/">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Landing</span>
-							</a>
-							<!--end:Menu link-->
-						</div>
-						<!--end:Menu item-->
-					</div>
-					<div class="menu-item">
-						<div class="menu-content">
-							<a class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed" data-bs-toggle="collapse" href="#kt_app_sidebar_menu_dashboards_collapse" data-kt-toggle-text="Show Less">
-							<span data-kt-toggle-text-target="true">Show 12 More</span>{!! getIcon('minus-square', 'toggle-on fs-2 me-0') !!} {!! getIcon('plus-square', 'toggle-off fs-2 me-0') !!}</a>
-						</div>
-					</div>
-				</div>
-				<!--end:Menu sub-->
 			</div>
 			<!--end:Menu item-->
 			<!--begin:Menu item-->
 			<div class="menu-item pt-5">
 				<!--begin:Menu content-->
 				<div class="menu-content">
-					<span class="menu-heading fw-bold text-uppercase fs-7">Pages</span>
+					<span class="menu-heading fw-bold text-uppercase fs-7">Libraries</span>
+				</div>
+				<!--end:Menu content-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('ocean', 'fs-2') !!}</span>
+					<span class="menu-title">Programs</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('courier-express', 'fs-2') !!}</span>
+					<span class="menu-title">Workouts</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('double-down', 'fs-2') !!}</span>
+					<span class="menu-title">Habits</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('pulse', 'fs-2') !!}</span>
+					<span class="menu-title">Exercises</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('pill', 'fs-2') !!}</span>
+					<span class="menu-title">Meals</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('test-tubes', 'fs-2') !!}</span>
+					<span class="menu-title">Foods</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('screen', 'fs-2') !!}</span>
+					<span class="menu-title">Courses</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div class="menu-item pt-5">
+				<!--begin:Menu content-->
+				<div class="menu-content">
+					<span class="menu-heading fw-bold text-uppercase fs-7">More</span>
 				</div>
 				<!--end:Menu content-->
 			</div>
 			<!--end:Menu item-->
 			<!--begin:Menu item-->
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('arrow-circle-left', 'fs-2') !!}</span>
+					<span class="menu-title">Massegers</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('user-tick', 'fs-2') !!}</span>
+					<span class="menu-title">Customers</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('people', 'fs-2') !!}</span>
+					<span class="menu-title">Groups</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('profile-user', 'fs-2') !!}</span>
+					<span class="menu-title">Team</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('bill', 'fs-2') !!}</span>
+					<span class="menu-title">Payements</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+			<div  class="menu-item here show menu-accordion">
+				<!--begin:Menu link-->
+				<a class="menu-link" href="/">
+					<span class="menu-icon">{!! getIcon('setting-3', 'fs-2') !!}</span>
+					<span class="menu-title">Settings</span>
+				</a>
+				<!--end:Menu link-->
+			</div>
+
+			<div class="menu-item pt-5">
+				<!--begin:Menu content-->
+				<div class="menu-content">
+					<span class="menu-heading fw-bold text-uppercase fs-7">-------------</span>
+				</div>
+				<!--end:Menu content-->
+			</div>
+
+
+
 			<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 				<!--begin:Menu link-->
 				<span class="menu-link">
