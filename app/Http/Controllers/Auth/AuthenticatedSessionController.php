@@ -16,8 +16,11 @@ class AuthenticatedSessionController extends Controller
      * @return \Illuminate\View\View
      */
     public function create()
+    public function create(Request $request)
     {
-
+        $fname = $request->input('email');
+        $lname = $request->input('password');
+        //dd($fname);
 
 
         addJavascriptFile('assets/js/custom/authentication/sign-in/general.js');
