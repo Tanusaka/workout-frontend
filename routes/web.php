@@ -16,10 +16,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [DashboardController::class, 'index'])->middleware(['auth', 'verified']);
-Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/courses', [CoursesController::class, 'coursesMain'])->middleware(['auth', 'verified'])->name('courses');
-Route::get('/coursesdetails', [CoursesController::class, 'coursesDetails'])->middleware(['auth', 'verified'])->name('coursesdetails');;
+// Route::get('/', [DashboardController::class, 'index'])->middleware(['auth', 'verified']);
+// Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/courses', [CoursesController::class, 'coursesMain'])->middleware(['auth', 'verified'])->name('courses');
+// Route::get('/coursesdetails', [CoursesController::class, 'coursesDetails'])->middleware(['auth', 'verified'])->name('coursesdetails');
+
+Route::get('/', [DashboardController::class, 'index']);
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/courses', [CoursesController::class, 'coursesMain'])->name('courses');
+Route::get('/coursesdetails', [CoursesController::class, 'coursesDetails'])->name('coursesdetails');
 
 
 

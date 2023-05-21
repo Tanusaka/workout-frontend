@@ -83,3 +83,6 @@
     </div>
     <!--end::Row-->
 </x-default-layout>
+<script>
+    
+</script>

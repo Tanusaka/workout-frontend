@@ -86,6 +86,7 @@ var KTSigninGeneral = function() {
                                 if (redirectUrl) {
                                     location.href = redirectUrl;
                                 }
+                                localStorage.setItem('JWTTKN', res.token);
                             },
                             error: function(err) {
 

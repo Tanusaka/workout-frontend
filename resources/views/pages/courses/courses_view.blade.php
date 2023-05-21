@@ -18,309 +18,20 @@
 			<!--begin::Table container-->
 			<div class="table-responsive">
 				<!--begin::Table-->
-				<table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
+				<table id="table" class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
 					<!--begin::Table head-->
 					<thead>
 						<tr class="fw-bold text-muted">
-							<th class="w-25px">
-								<div class="form-check form-check-sm form-check-custom form-check-solid">
-									<input class="form-check-input" type="checkbox" value="1" data-kt-check="true" data-kt-check-target=".widget-9-check" />
-								</div>
-							</th>
-							<th class="min-w-200px">Authors</th>
-							<th class="min-w-150px">Company</th>
-							<th class="min-w-150px">Progress</th>
-							<th class="min-w-100px text-end">Actions</th>
+							<th class="min-w-300px">Title</th>
+							<th class="min-w-200px">Level</th>
+							<th class="min-w-150px">Description</th>
+							<th class="min-w-100px text-start">Actions</th>
 						</tr>
 					</thead>
 					<!--end::Table head-->
 					<!--begin::Table body-->
 					<tbody>
-						<tr>
-							<td>
-								<div class="form-check form-check-sm form-check-custom form-check-solid">
-									<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-								</div>
-							</td>
-							<td>
-								<div class="d-flex align-items-center">
-									<div class="symbol symbol-45px me-5">
-										<img src="assets/media/avatars/300-14.jpg" alt="" />
-									</div>
-									<div class="d-flex justify-content-start flex-column">
-										<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Ana Simmons</a>
-										<span class="text-muted fw-semibold text-muted d-block fs-7">HTML, JS, ReactJS</span>
-									</div>
-								</div>
-							</td>
-							<td>
-								<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">Intertico</a>
-								<span class="text-muted fw-semibold text-muted d-block fs-7">Web, UI/UX Design</span>
-							</td>
-							<td class="text-end">
-								<div class="d-flex flex-column w-100 me-2">
-									<div class="d-flex flex-stack mb-2">
-										<span class="text-muted me-2 fs-7 fw-bold">50%</span>
-									</div>
-									<div class="progress h-6px w-100">
-										<div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</td>
-							<td>
-								<div class="d-flex justify-content-end flex-shrink-0">
-									<a href="/coursesdetails" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-plus-circle fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-pencil fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-										<i class="ki-duotone ki-trash fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-											<span class="path4"></span>
-											<span class="path5"></span>
-										</i>
-									</a>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="form-check form-check-sm form-check-custom form-check-solid">
-									<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-								</div>
-							</td>
-							<td>
-								<div class="d-flex align-items-center">
-									<div class="symbol symbol-45px me-5">
-										<img src="assets/media/avatars/300-2.jpg" alt="" />
-									</div>
-									<div class="d-flex justify-content-start flex-column">
-										<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Jessie Clarcson</a>
-										<span class="text-muted fw-semibold text-muted d-block fs-7">C#, ASP.NET, MS SQL</span>
-									</div>
-								</div>
-							</td>
-							<td>
-								<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">Agoda</a>
-								<span class="text-muted fw-semibold text-muted d-block fs-7">Houses & Hotels</span>
-							</td>
-							<td class="text-end">
-								<div class="d-flex flex-column w-100 me-2">
-									<div class="d-flex flex-stack mb-2">
-										<span class="text-muted me-2 fs-7 fw-bold">70%</span>
-									</div>
-									<div class="progress h-6px w-100">
-										<div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</td>
-							<td>
-								<div class="d-flex justify-content-end flex-shrink-0">
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-plus-circle fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-pencil fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-										<i class="ki-duotone ki-trash fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-											<span class="path4"></span>
-											<span class="path5"></span>
-										</i>
-									</a>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="form-check form-check-sm form-check-custom form-check-solid">
-									<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-								</div>
-							</td>
-							<td>
-								<div class="d-flex align-items-center">
-									<div class="symbol symbol-45px me-5">
-										<img src="assets/media/avatars/300-5.jpg" alt="" />
-									</div>
-									<div class="d-flex justify-content-start flex-column">
-										<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Lebron Wayde</a>
-										<span class="text-muted fw-semibold text-muted d-block fs-7">PHP, Laravel, VueJS</span>
-									</div>
-								</div>
-							</td>
-							<td>
-								<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">RoadGee</a>
-								<span class="text-muted fw-semibold text-muted d-block fs-7">Transportation</span>
-							</td>
-							<td class="text-end">
-								<div class="d-flex flex-column w-100 me-2">
-									<div class="d-flex flex-stack mb-2">
-										<span class="text-muted me-2 fs-7 fw-bold">60%</span>
-									</div>
-									<div class="progress h-6px w-100">
-										<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</td>
-							<td>
-								<div class="d-flex justify-content-end flex-shrink-0">
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-plus-circle fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-pencil fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-										<i class="ki-duotone ki-trash fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-											<span class="path4"></span>
-											<span class="path5"></span>
-										</i>
-									</a>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="form-check form-check-sm form-check-custom form-check-solid">
-									<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-								</div>
-							</td>
-							<td>
-								<div class="d-flex align-items-center">
-									<div class="symbol symbol-45px me-5">
-										<img src="assets/media/avatars/300-20.jpg" alt="" />
-									</div>
-									<div class="d-flex justify-content-start flex-column">
-										<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Natali Goodwin</a>
-										<span class="text-muted fw-semibold text-muted d-block fs-7">Python, PostgreSQL, ReactJS</span>
-									</div>
-								</div>
-							</td>
-							<td>
-								<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">The Hill</a>
-								<span class="text-muted fw-semibold text-muted d-block fs-7">Insurance</span>
-							</td>
-							<td class="text-end">
-								<div class="d-flex flex-column w-100 me-2">
-									<div class="d-flex flex-stack mb-2">
-										<span class="text-muted me-2 fs-7 fw-bold">50%</span>
-									</div>
-									<div class="progress h-6px w-100">
-										<div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</td>
-							<td>
-								<div class="d-flex justify-content-end flex-shrink-0">
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-plus-circle fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-pencil fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-										<i class="ki-duotone ki-trash fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-											<span class="path4"></span>
-											<span class="path5"></span>
-										</i>
-									</a>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="form-check form-check-sm form-check-custom form-check-solid">
-									<input class="form-check-input widget-9-check" type="checkbox" value="1" />
-								</div>
-							</td>
-							<td>
-								<div class="d-flex align-items-center">
-									<div class="symbol symbol-45px me-5">
-										<img src="assets/media/avatars/300-23.jpg" alt="" />
-									</div>
-									<div class="d-flex justify-content-start flex-column">
-										<a href="#" class="text-dark fw-bold text-hover-primary fs-6">Kevin Leonard</a>
-										<span class="text-muted fw-semibold text-muted d-block fs-7">HTML, JS, ReactJS</span>
-									</div>
-								</div>
-							</td>
-							<td>
-								<a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">RoadGee</a>
-								<span class="text-muted fw-semibold text-muted d-block fs-7">Art Director</span>
-							</td>
-							<td class="text-end">
-								<div class="d-flex flex-column w-100 me-2">
-									<div class="d-flex flex-stack mb-2">
-										<span class="text-muted me-2 fs-7 fw-bold">90%</span>
-									</div>
-									<div class="progress h-6px w-100">
-										<div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</td>
-							<td>
-								<div class="d-flex justify-content-end flex-shrink-0">
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-plus-circle fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
-										<i class="ki-duotone ki-pencil fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-										</i>
-									</a>
-									<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
-										<i class="ki-duotone ki-trash fs-2">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-											<span class="path4"></span>
-											<span class="path5"></span>
-										</i>
-									</a>
-								</div>
-							</td>
-						</tr>
+
 					</tbody>
 					<!--end::Table body-->
 				</table>
@@ -330,5 +41,234 @@
 		</div>
 
 
+		<!--begin::Modal - New Target-->
+		<div class="modal fade" id="kt_modal_add_new_course" tabindex="-1" aria-hidden="true">
+			<!--begin::Modal dialog-->
+			<div class="modal-dialog modal-dialog-centered mw-650px">
+				<!--begin::Modal content-->
+				<div class="modal-content rounded">
+					<!--begin::Modal header-->
+					<div class="modal-header pb-0 border-0 justify-content-end">
+						<!--begin::Close-->
+						<div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">{!! getIcon('cross', 'fs-1') !!}</div>
+						<!--end::Close-->
+					</div>
+					<!--begin::Modal header-->
+					<!--begin::Modal body-->
+					<div class="modal-body scroll-y px-10 px-lg-15 pt-0 pb-15">
+						<!--begin:Form-->
+						<form id="kt_modal_new_target_form" class="form" action="#">
+							<!--begin::Heading-->
+							<div class="mb-13 text-center">
+								<!--begin::Title-->
+								<h1 class="mb-3">Add Course</h1>
+							</div>
+							<!--end::Heading-->
+							<!--begin::Input group-->
+							<div class="d-flex flex-column mb-8 fv-row">
+								<!--begin::Label-->
+								<label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+									<span class="required">Course Title</span>
+									<span class="ms-1" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></span>
+								</label>
+								<!--end::Label-->
+								<input type="text" class="form-control form-control-solid" placeholder="Course Title" name="Course_Title" id="Course_Title" />
+							</div>
+							<div class="d-flex flex-column mb-8 fv-row">
+								<!--begin::Label-->
+								<label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+									<span class="required">Course Subtitle</span>
+									<span class="ms-1" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></span>
+								</label>
+								<!--end::Label-->
+								<input type="text" class="form-control form-control-solid" placeholder="Course Subtitle" name="Course_Subtitle" id="Course_Subtitle" />
+							</div>
+							<!--end::Input group-->
+							<!--begin::Input group-->
+							<div class="d-flex flex-column mb-8 fv-row">
+								<!--begin::Col-->
+								<span class="required">Select Course Type (EX: Basic/Advanced)</span>
+								<select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Select Course Type (EX: Basic/Advanced" name="Course_Type" id="Course_Type">
+									<option value="Basic">Basic</option>
+									<option value="Advanced">Advanced</option>
+								</select>
+								<!--end::Col-->
+							</div>
+
+							<div class="d-flex flex-column mb-8 fv-row">
+								<!--begin::Col-->
+								<span class="required">Select Trainer</span>
+								<select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Select Course Type (EX: Basic/Advanced" name="Select_Trainer" id="Select_Trainer">
+									<option value="1">Basic</option>
+									<option value="2">Advanced</option>
+								</select>
+								<!--end::Col-->
+							</div>
+							<!--end::Input group-->
+							<!--begin::Input group-->
+							<div class="d-flex flex-column mb-8">
+								<label class="fs-6 fw-semibold mb-2">Description</label>
+								<textarea class="form-control form-control-solid" rows="3" name="Target_Details" id="Target_Details" placeholder="Type Target Details"></textarea>
+							</div>
+							<!--end::Input group-->
+							<!--begin::Input group-->
+							<div class="d-flex flex-column mb-8 fv-row">
+								<!--begin::Label-->
+								<label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+									<span class="required">Tags</span>
+									@include('partials/general/_form-tooltip-hint')
+								</label>
+								<!--end::Label-->
+								<div class="d-flex align-items-center">
+									<!--begin::Checkbox-->
+									<label class="form-check form-check-custom form-check-solid me-10">
+										<input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="email" checked="checked" />
+										<span class="form-check-label fw-semibold">Abs</span>
+									</label>
+									<!--end::Checkbox-->
+									<label class="form-check form-check-custom form-check-solid me-10">
+										<input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="email" checked="checked" />
+										<span class="form-check-label fw-semibold">Intermediate</span>
+									</label>
+									<label class="form-check form-check-custom form-check-solid me-10">
+										<input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="email" checked="checked" />
+										<span class="form-check-label fw-semibold">Isolation</span>
+									</label>
+									<label class="form-check form-check-custom form-check-solid me-10">
+										<input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="email" checked="checked" />
+										<span class="form-check-label fw-semibold">Pull</span>
+									</label>
+									<label class="form-check form-check-custom form-check-solid me-10">
+										<input class="form-check-input h-20px w-20px" type="checkbox" name="communication[]" value="email" checked="checked" />
+										<span class="form-check-label fw-semibold">Bilateral</span>
+									</label>
+								</div>
+							</div>
+
+							<!--end::Input group-->
+							<!--begin::Actions-->
+							<div class="text-center">
+								<button type="reset" id="kt_modal_new_target_cancel" class="btn btn-light me-3">Cancel</button>
+								<button onclick="Save_Course();" type="button" id="kt_modal_new_target_submit" class="btn btn-primary">
+									<span class="indicator-label">Submit</span>
+									<span class="indicator-progress">Please wait...
+										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+								</button>
+							</div>
+							<!--end::Actions-->
+						</form>
+						<!--end:Form-->
+					</div>
+					<!--end::Modal body-->
+				</div>
+				<!--end::Modal content-->
+			</div>
+			<!--end::Modal dialog-->
+		</div>
+		<!--end::Modal - New Target-->
+
+
 
 </x-default-layout>
+
+<script type="text/javascript">
+	var token = localStorage.getItem('JWTTKN');
+	$(document).ready(function() {
+
+
+		$.ajaxSetup({
+			headers: {
+				'Authorization': 'Bearer ' + token
+			}
+		})
+		$.ajax({
+			type: 'GET',
+			url: 'https://workout.americanathleticsco.com/courses',
+			success: function(data) {
+				$.each(data, function(index, value) {
+					$('#table').append('<tr><td><div class="d-flex align-items-center"><div class="symbol symbol-45px me-5"><img src="assets/media/avatars/300-14.jpg" alt="" /></div><div class="d-flex justify-content-start flex-column"><a href="#" class="text-dark fw-bold text-hover-primary fs-6">' + value.title + '</a><span class="text-muted fw-semibold text-muted d-block fs-7">' + value.subtitle + '</span></div></div></td><td><a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">' + value.level + '</a></td><td class="text-end"><div class="d-flex flex-column w-100 me-2"><div class="d-flex flex-stack mb-2"><a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6">' + value.description + '</a></div></div></td><td><div class="d-flex justify-content-end flex-shrink-0"><a href="/coursesdetails" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"><i class="ki-duotone ki-plus-circle fs-2"><span class="path1"></span><span class="path2"></span></i></a><a onclick="Edit_Course(' + value.id + ');" data-bs-toggle="modal" data-bs-target="#kt_modal_add_new_course" href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"><i class="ki-duotone ki-pencil fs-2"><span class="path1"></span><span class="path2"></span></i></a><a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm"><i class="ki-duotone ki-trash fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i></div></td></tr>');
+				});
+
+				console.log(data)
+
+			}
+		});
+
+
+
+	});
+
+	function Save_Course() {
+
+
+
+
+		var Select_Trainer = $('#Select_Trainer').val();
+		var Course_Title = $('#Course_Title').val();
+		var Course_Subtitle = $('#Course_Subtitle').val();
+		var Course_Type = $('#Course_Type').val();
+		var Target_Details = $('#Target_Details').val();
+		var communication = $('[name=communication]').val();
+		$.ajaxSetup({
+			headers: {
+				'Authorization': 'Bearer ' + token
+			}
+		})
+		$.ajax({
+			type: 'POST',
+			url: 'https://workout.americanathleticsco.com/courses/save',
+			data: {
+				'prid': Select_Trainer,
+				'type': "course",
+				'title': Course_Title,
+				'subtitle': Course_Subtitle,
+				'level': Course_Type,
+				'description': Target_Details,
+				'covermediatype': "image",
+				'covermedia': "covermedia path goes here",
+				'status': "A",
+				'sections': communication,
+			},
+			success: function(data) {
+
+				console.log(data)
+
+			}
+		});
+
+
+	}
+
+	function Edit_Course(ID) {
+		$('#Select_Trainer').val("");
+		$('#Course_Title').val("");
+		$('#Course_Subtitle').val("");
+		$('#Course_Type').val("");
+		$('#Target_Details').val("");
+		$('[name=communication]').val("");
+		$.ajaxSetup({
+			headers: {
+				'Authorization': 'Bearer ' + token
+			}
+		})
+
+		$.ajax({
+			type: 'POST',
+			url: 'https://workout.americanathleticsco.com/courses/get',
+			data: {
+				'id': ID,
+			},
+			success: function(data) {
+				$('#Select_Trainer').val(data.prid);
+				$('#Course_Title').val(data.title);
+				$('#Course_Subtitle').val(data.subtitle);
+				$('#Course_Type').val(data.level);
+				$('#Target_Details').val(data.description);
+				$('[name=communication]').val(data.sections['id']);
+
+			}
+		});
+
+
+	}
+</script>
