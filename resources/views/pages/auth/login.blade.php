@@ -81,6 +81,7 @@
         </div>
     </form>
     <!--end::Form-->
+    <
 
 
 </x-auth-layout>
