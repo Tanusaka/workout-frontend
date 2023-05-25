@@ -14,4 +14,9 @@
 @include('partials/modals/users-search/_main')
 
 @include('partials/modals/_invite-friends')
+
+<!-- -----------------------all new modals------------------------------>
+
+@include('partials/modals/_add-new-course')
+@include('partials/modals/_add-new-course_deatils')
 <!--end::Modals-->
