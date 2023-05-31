@@ -83,3 +83,4 @@
     </div>
     <!--end::Row-->
 </x-default-layout>
+<script type="text/javascript" src="assets\js\custom\keycheck.js">check_key()</script>

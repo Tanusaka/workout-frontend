@@ -17,6 +17,7 @@ class AuthenticatedSessionController extends Controller
      */
     public function create()
     {
+
         addJavascriptFile('assets/js/custom/authentication/sign-in/general.js');
 
         return view('pages.auth.login');
@@ -31,11 +32,21 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request)
     {
+
         $request->authenticate();
 
         $request->session()->regenerate();
 
-        return redirect()->intended(RouteServiceProvider::HOME);
+       return redirect()->intended(RouteServiceProvider::HOME);
+    }
+
+    public function create_token_Sesstion(Request $request)
+    {
+
+       $uname= $request->input('email');
+       $passwrd = $request->input('password');
+
+       dd($uname);
     }
 
     /**

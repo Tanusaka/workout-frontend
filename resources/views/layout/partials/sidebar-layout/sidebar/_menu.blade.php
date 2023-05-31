@@ -72,7 +72,7 @@
 			</div>
 			<div  class="menu-item here show menu-accordion">
 				<!--begin:Menu link-->
-				<a class="menu-link" href="/">
+				<a class="menu-link" href="/courses">
 					<span class="menu-icon">{!! getIcon('screen', 'fs-2') !!}</span>
 					<span class="menu-title">Courses</span>
 				</a>
